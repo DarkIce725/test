@@ -2,5 +2,8 @@
 using namespace std;
 int main()
 {
-cout << "Hello world" << endl;
+char* a;
+cout << "Введите имя";
+cin >> a;
+cout << "Hello World from" << a<< endl;
 }
